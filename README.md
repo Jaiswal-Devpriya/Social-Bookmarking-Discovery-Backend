@@ -1,3 +1,25 @@
+## Architecture
+
+![Architecture Diagram](screenshots/architecture-diagram.png)
+
+## Screenshots
+
+### API Documentation
+
+![Swagger UI](screenshots/api-documentation.png)
+
+### JWT Authentication
+
+![JWT Login](screenshots/jwt-login-success.png)
+
+### CI/CD Pipeline
+
+![GitHub Actions](screenshots/github-actions-success.png)
+
+### Dockerized Deployment
+
+![Docker Compose](screenshots/docker-compose-running.png)
+
 # Social Bookmarking and Discovery Backend
 
 A production-style backend service for social bookmarking and content discovery built with Spring Boot, PostgreSQL, Redis, Docker, and JWT authentication.
