@@ -5,7 +5,12 @@ import lombok.Data;
 import java.time.LocalDateTime;
 
 @Entity
-@Table(name = "bookmarks")
+@Table(
+    name = "bookmarks",
+    indexes = {
+        @Index(name = "idx_bookmark_created_at", columnList = "createdAt")
+    }
+)
 @Data
 public class Bookmark implements Serializable {
 
