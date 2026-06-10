@@ -16,6 +16,7 @@ A production-style backend service for social bookmarking and content discovery 
 * Automated CI pipeline with GitHub Actions
 * Load tested with k6
 ## Architecture
+<img width="284" height="357" alt="architecture-diagram" src="https://github.com/user-attachments/assets/098e9423-d270-4803-9fe0-dec400a7dca9" />
 
 ![Architecture Diagram](screenshots/architecture-diagram.png)
 
