@@ -1,3 +1,20 @@
+# Social Bookmarking and Discovery Backend
+
+A production-style backend service for social bookmarking and content discovery built with Spring Boot, PostgreSQL, Redis, Docker, and JWT authentication.
+
+## Features
+
+* User registration and login
+* JWT-based authentication
+* BCrypt password hashing
+* Bookmark creation and retrieval
+* Feed retrieval with Redis-backed caching
+* Cursor-based pagination
+* PostgreSQL persistence with indexed queries
+* Dockerized deployment
+* Interactive API documentation with Swagger/OpenAPI
+* Automated CI pipeline with GitHub Actions
+* Load tested with k6
 ## Architecture
 
 ![Architecture Diagram](screenshots/architecture-diagram.png)
@@ -19,25 +36,6 @@
 ### Dockerized Deployment
 
 ![Docker Compose](screenshots/docker-compose-running.png)
-
-# Social Bookmarking and Discovery Backend
-
-A production-style backend service for social bookmarking and content discovery built with Spring Boot, PostgreSQL, Redis, Docker, and JWT authentication.
-
-## Features
-
-* User registration and login
-* JWT-based authentication
-* BCrypt password hashing
-* Bookmark creation and retrieval
-* Feed retrieval with Redis-backed caching
-* Cursor-based pagination
-* PostgreSQL persistence with indexed queries
-* Dockerized deployment
-* Interactive API documentation with Swagger/OpenAPI
-* Automated CI pipeline with GitHub Actions
-* Load tested with k6
-
 ## Tech Stack
 
 ### Backend
