@@ -1,5 +1,5 @@
 package com.devpriya.Social_Bookmarking_Discovery_Backend.entity;
-
+import java.io.Serializable;
 import jakarta.persistence.*;
 import lombok.Data;
 import java.time.LocalDateTime;
@@ -7,7 +7,7 @@ import java.time.LocalDateTime;
 @Entity
 @Table(name = "bookmarks")
 @Data
-public class Bookmark {
+public class Bookmark implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
