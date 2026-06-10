@@ -15,28 +15,7 @@ A production-style backend service for social bookmarking and content discovery 
 * Interactive API documentation with Swagger/OpenAPI
 * Automated CI pipeline with GitHub Actions
 * Load tested with k6
-## Architecture
-<img width="284" height="357" alt="architecture-diagram" src="https://github.com/user-attachments/assets/098e9423-d270-4803-9fe0-dec400a7dca9" />
 
-![Architecture Diagram](screenshots/architecture-diagram.png)
-
-## Screenshots
-
-### API Documentation
-
-![Swagger UI](screenshots/api-documentation.png)
-
-### JWT Authentication
-
-![JWT Login](screenshots/jwt-login-success.png)
-
-### CI/CD Pipeline
-
-![GitHub Actions](screenshots/github-actions-success.png)
-
-### Dockerized Deployment
-
-![Docker Compose](screenshots/docker-compose-running.png)
 ## Tech Stack
 
 ### Backend
@@ -65,6 +44,7 @@ A production-style backend service for social bookmarking and content discovery 
 ---
 
 ## Architecture
+<img width="284" height="357" alt="architecture-diagram" src="https://github.com/user-attachments/assets/2ef20592-1289-4471-bb62-df578e3269cf" />
 
 Client Applications interact with Spring Boot REST APIs.
 
@@ -79,6 +59,7 @@ The application uses:
 ---
 
 ## API Endpoints
+<img width="1511" height="897" alt="api-documentation" src="https://github.com/user-attachments/assets/a60ddd57-f320-4558-abb3-39aa7dddad41" />
 
 ### Authentication
 
@@ -133,6 +114,7 @@ http://localhost:8080
 ---
 
 ## Swagger Documentation
+<img width="1475" height="899" alt="jwt-login-success" src="https://github.com/user-attachments/assets/a7c70a38-6676-4b87-945c-291b6b043750" />
 
 Interactive API documentation:
 
@@ -165,8 +147,10 @@ Response:
 
 ---
 
-## Performance Testing
+### Dockerized Deployment
+<img width="1166" height="170" alt="docker-compose-running" src="https://github.com/user-attachments/assets/a971b2ce-7d26-495b-ab6e-b131eb56fd15" />
 
+## Performance Testing
 Load testing was performed using k6.
 
 Results:
@@ -179,6 +163,7 @@ Results:
 ---
 
 ## CI/CD
+<img width="1511" height="897" alt="github-actions-success" src="https://github.com/user-attachments/assets/c475eebd-7df0-4a25-92bd-997afd8f811a" />
 
 GitHub Actions automatically:
 
